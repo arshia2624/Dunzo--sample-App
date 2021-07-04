@@ -11,14 +11,14 @@
     </data>
 
     <RelativeLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/space_5">
 
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card_view"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/space_5"
             app:cardCornerRadius="@dimen/space_5"
@@ -26,7 +26,7 @@
 
             <ImageView
                 android:id="@+id/img_view"
-                android:layout_width="200dp"
+                android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
